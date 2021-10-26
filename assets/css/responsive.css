@@ -1,0 +1,124 @@
+/* Mobile */
+@media (max-width: 740px) {
+    .s-full-width,
+    .mobile-col-ful {
+        width: 100%;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+
+    #header .button-mobile {
+        display: block;
+    }
+
+    #header .button {
+        display: none;
+    }
+
+
+    #navigation {
+        display: block;
+    }
+
+    #navigation > li {
+        display: block;
+    }
+
+    #navigation li a {
+        padding: 1px 24px;
+    }
+
+    #navigation > li:first-child {
+        display: inline-block;
+    }
+
+    #navigation .subnavigation {
+        position: initial;
+        background-color: #000;
+    }
+
+    #navigation .subnavigation a {
+        color: #fff;
+        padding: 5px 42px;
+    }
+
+    #slider .chu-hinh {
+        bottom: 22px;
+        transform: translateX(-73px);
+    }
+
+    #slider .chu {
+        font-size: 20px;
+    }
+
+    #slider .cau-chu {
+        font-size: 8px;
+        margin: 15px 0;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .team-pic {
+        width: 154px;
+        height: 154px;
+    }
+
+    .tour-content {
+        margin-top: 700px;
+    }
+
+    .place-item-mobile {
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .contact-info-mobile {
+        margin-bottom: 32px;
+    }
+
+    .mobile-email {
+        margin-top: 8px;
+    }
+
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+
+
+
+/* Mobile and Tablet */
+@media (max-width: 1023px) {
+    .place-buy {
+        padding: 15px 18px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    #footer .social {
+        font-size: 42px;
+    }
+
+
+    #footer .copyright {
+        font-size: 24px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+    }
+}
